@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+<body>
+    <form action="/contact">
+        <label for="username">Username:</label>
+        <input type="text" id="username" placeholder="email" required="true" value="Sachin Tendulkar"><br>
+
+        <label for="user_password">Password:</label>
+        <input id="user_password" type="password"><br>
+
+        <label for="user_date">Date:</label>
+        <input id="user_date" type="date"><br>
+
+        <label for="user_file">File:</label>
+        <input id="user_file" type="file"><br>
+
+        <label for="user_colour">Colour:</label>
+        <input id="user_colour" type="color"><br>
+
+        <label for="user_range">Price:</label>
+        <input id="user_range" type="range"><br>
+
+        <label for="user_button">Button:</label>
+        <input id="user_button" type="button" value="Button"><br><br>
+
+        <label for="male">Male:</label>
+        <input id="male" type="radio" value="Male" name="gender"><br>
+
+        <label for="female">Female:</label>
+        <input id="female" type="radio" value="Female" name="gender"><br>
+
+        <label for="other">Other:</label>
+        <input id="other" type="radio" value="other" name="gender"><br><br> <!--for same category in radio buttons keep name parameter same-->
+
+        <label for="python">Python</label>
+        <input id="python" type="checkbox" name="language" value="py"><br>
+
+        <label for="java">Java</label>
+        <input id="java" type="checkbox" name="language" value="jv"><br>
+
+        <label for="cpp">C++</label>
+        <input id="cpp" type="checkbox" name="language" value="cp"><br><br>
+
+        <label for="driver">Choose your driver:</label>
+        <select id="driver" name="driver">
+            <option value="Verstappen">Max Verstappen</option>
+            <option value="Perez">Sergio Perez</option>
+            <option value="Hamilton">Lewis Hamilton</option>
+        </select><br><br>
+
+        <textarea name="experience" id="experience" rows="6" cols="40">
+            "Enter your F1 experience"
+        </textarea><br><br>
+
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/HK6B2da3DPA?si=2hTT3DIkCh6BwMRj" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+        <br><br>
+        <label for="user_print">Print/Submit:</label>
+        <input id="user_print" type="submit" value="Print">
+    </form>
+    
+</body>
+</html>
